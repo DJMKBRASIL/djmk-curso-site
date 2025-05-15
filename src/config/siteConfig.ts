@@ -1,5 +1,5 @@
 export const siteConfig = {
-  hotmartLink: "https://hotmart.com/SEU_LINK_DE_PRODUTO_AQUI", // Substituir pelo link real do Hotmart
+  hotmartLink: "https://go.hotmart.com/Y92779913Q", // Substituir pelo link real do Hotmart
   instagramLink: "https://www.instagram.com/djmkbrasil",
   whatsappLink: "https://wa.me/5541998949082", // Formato internacional do WhatsApp
   emailLink: "mailto:djmkbrasil@gmail.com",
