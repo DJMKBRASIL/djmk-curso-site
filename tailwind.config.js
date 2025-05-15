@@ -1,4 +1,3 @@
-
 /** @type {import("tailwindcss").Config} */
 module.exports = {
   darkMode: ["class"],
@@ -25,11 +24,11 @@ module.exports = {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "#0A0A0A",
+          DEFAULT: "#0A0A0A", // Um preto ligeiramente mais suave que o preto puro
           foreground: "hsl(var(--primary-foreground))",
         },
         secondary: {
-          DEFAULT: "#FF0000", // vermelho principal
+          DEFAULT: "#7F00FF", // Roxo principal (substituindo o vermelho)
           foreground: "hsl(var(--secondary-foreground))",
         },
         destructive: {
@@ -41,7 +40,7 @@ module.exports = {
           foreground: "hsl(var(--muted-foreground))",
         },
         accent: {
-          DEFAULT: "#FF4C4C", // vermelho de destaque
+          DEFAULT: "#A700FF", // Roxo de destaque (substituindo o vermelho/laranja de destaque)
           foreground: "hsl(var(--accent-foreground))",
         },
         popover: {
@@ -52,8 +51,9 @@ module.exports = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        darkText: "#1F1F1F",
-        lightText: "#F5F5F5",
+        // Cores personalizadas do tema anterior, adaptadas ou a serem verificadas
+        darkText: "#1F1F1F", // Um cinza escuro para texto ou fundos secundários escuros
+        lightText: "#F5F5F5", // Um branco/cinza claro para texto em fundos escuros
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -78,3 +78,5 @@ module.exports = {
   },
   plugins: [require("tailwindcss-animate")],
 };
+
+
