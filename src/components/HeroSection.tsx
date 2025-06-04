@@ -13,7 +13,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ id }) => {
       
       <div className="relative z-10">
         <h1 className="text-5xl md:text-7xl font-bold mb-4">
-          {siteConfig.courseName}: <span className="text-secondary">Domine a Pista</span>
+          {siteConfig.courseName}: <span className="text-secondary">Domine a pista como um mestre</span>
         </h1>
         <h2 className="text-2xl md:text-4xl font-bold mb-8">
           E Transforme Sua Carreira de DJ com <span className="text-accent">{siteConfig.djName}</span>
