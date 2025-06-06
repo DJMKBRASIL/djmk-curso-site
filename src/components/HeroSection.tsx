@@ -7,7 +7,10 @@ interface HeroSectionProps {
 
 const HeroSection: React.FC<HeroSectionProps> = ({ id }) => {
   return (
-    <section id={id} className="w-full min-h-screen flex flex-col justify-center items-center text-center bg-primary text-lightText p-8 relative overflow-hidden pt-20 md:pt-0">
+    <section
+      id={id}
+      className="w-full min-h-screen flex flex-col justify-center items-center text-center bg-primary text-lightText px-8 pb-8 pt-0 relative overflow-hidden"
+    >
       {/* Adjusted padding top for mobile to account for header, desktop might not need it if header is transparent initially */}
       <div className="absolute inset-0 bg-black opacity-50 z-0"></div>
       
